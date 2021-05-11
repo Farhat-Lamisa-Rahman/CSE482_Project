@@ -101,14 +101,15 @@
                 <form action="LoginVerification.php" method="post"  id='login' class='input-group-login'>
                     <input type='Email'class='input-field' id="Email"  name="email" placeholder='Email Id' required>
                      <input type='password'class='input-field' id="Password" name="Password" placeholder='Enter Password' required>
+                     <input type='checkbox'class='check-box'><span>Remember Password</span><br>
                      <button type='submit' name="submit" id="submit"  value="submit" class='submit-btn'>LOGIN</button>
                  </form>
                  <form action="homepage.html" method="post" id='register' class='input-group-register' >
                  <input type='text'class='input-field' name="First-Name" placeholder='First-Name' required>
                      <input type='text'class='input-field' name="Last-Name" placeholder='Last-Name ' required>
                      <input type='Email'class='input-field' name="email" placeholder='Email Id' required>
-                     <input type='text'class='input-field' name="Password" id="Enter-Password" placeholder='Enter Password' required>
-                     <input type='text'class='input-field' name="Confirm-Password" id="Confirm-Password" placeholder='Confirm Password'  required>
+                     <input type='password'class='input-field' name="Password" id="Enter-Password" placeholder='Enter Password' required>
+                     <input type='password'class='input-field' name="Confirm-Password" id="Confirm-Password" placeholder='Confirm Password'  required>
                      <input type='checkbox'class='check-box' required><span>I agree to the terms and conditions</span>
                      <button type='submit' name="submit" id="submit"  value="submit" class='submit-btn' onclick="return validation()" >Register</button>
                      </form>
