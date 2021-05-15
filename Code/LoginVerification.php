@@ -11,10 +11,9 @@ $Email=$_POST['email'];
     while($row = $result->fetch_assoc()) 
     {
       
-      if($Email==$row["Email"])
+      if($Email==$row["Email"] && $Password==$row["Password"])
       {
-        header("Location: loginpage.php");
-        
+        header("Location: loginpage.php"); 
       }
       else echo "<br>"." Try again !!!  " ;
     }
