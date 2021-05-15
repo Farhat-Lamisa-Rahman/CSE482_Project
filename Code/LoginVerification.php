@@ -13,7 +13,7 @@ $Email=$_POST['email'];
       
       if($Email==$row["Email"] && $Password==$row["Password"])
       {
-        header("Location: loginpage.php"); 
+        header("Location: homepage.php"); 
       }
       else echo "<br>"." Try again !!!  " ;
     }
