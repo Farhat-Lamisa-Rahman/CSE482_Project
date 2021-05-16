@@ -1,14 +1,17 @@
-<?php
+<?php include('db_connect.php'); ?>
 
-echo("OK!");
+<?php include('index.php'); 
+echo $item["name"];
+echo $item["code"];
+echo $item["quantity"];
+echo "$ ".$item["price"];
 
-
-$Name= "Lamisa";
-$Code=$_POST[$item["code"]];
-$Quantity=$_POST['quantity'];
-$Price=$_POST['price'];
-$query="INSERT INTO orderinfo(`Name`, `Code`, `Quantity`, `Price`)
-VALUES('{$Name}','{$Code}','{$Quantity}', '{$Price}');";
+$First_Name=$item["name"];
+$Password=$item["code"];
+$Last_Name=$item["quantity"];
+$Email=$item["price"];
+$query="INSERT INTO customerdetails(`First Name`, `Last Name`, `Password`, `Email`)
+VALUES('{$First_Name}','{$Last_Name}','{$Password}','{$Email}');";
 $performQuery=mysqli_query($connection, $query);
 if(!$performQuery)
 echo 'Query unsuccessful';
@@ -17,3 +20,4 @@ echo 'Query successful';
 $insertedId=mysqli_insert_id($connection);
 
 ?>
+
