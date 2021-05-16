@@ -104,7 +104,7 @@
                      <input type='checkbox'class='check-box'><span>Remember Password</span><br>
                      <button type='submit' name="submit" id="submit"  value="submit" class='submit-btn'>LOGIN</button>
                  </form>
-                 <form action="index.php" method="post" id='register' class='input-group-register' >
+                 <form action="post_registration_data.php" method="post" id='register' class='input-group-register' >
                  <input type='text'class='input-field' name="First-Name" placeholder='First-Name' required>
                      <input type='text'class='input-field' name="Last-Name" placeholder='Last-Name ' required>
                      <input type='Email'class='input-field' name="email" placeholder='Email Id' required>
