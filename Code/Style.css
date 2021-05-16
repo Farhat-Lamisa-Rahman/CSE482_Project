@@ -1,0 +1,219 @@
+*
+body,
+html
+{
+  min-height: 100%;
+ 
+}
+
+   body
+   {
+       margin: 0;
+       padding: 0;
+
+       
+   } 
+
+   .main_view_cont 
+{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+
+
+.main_view_top_cont
+{
+	height: 19%;
+    width: 100%;
+	padding: 59.5px;
+    background-color:#551f06 ;
+}
+
+ 
+
+   .pubg
+   {
+     
+    background: url(images/cod3blur.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+ 
+   }
+
+
+   .pubg img
+   {
+     margin: 5%;
+     height: 333px;
+     width: 222px;
+     
+   }
+
+.navbar {
+	  overflow: hidden;
+	  background-color: #551f06; 
+   
+    position: relative;
+    padding: 45px;
+
+    
+  }
+  
+  .navbar a {
+	float: center;
+	font-size: 16px;
+    font-family: sans-serif;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+    
+  }
+  
+  .subnav {
+	float: left;
+  margin: 5px;
+	
+  }
+
+  .confirm-btn  {
+    float:right;
+    margin: 2px;
+    padding: 2px;
+  }
+  
+  .subnav .subnavbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: rgb(255, 255, 255);
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+	background-color: rgb(223, 158, 142);
+  }
+  
+  .subnav-content {
+	display: none;
+	position: absolute;
+	left: 0;
+	background-color: rgb(221, 151, 133);
+	width: 100%;
+	z-index: 1;
+  }
+  
+  .subnav-content a {
+	float: left;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+	background-color: #551f06;
+	color: rgb(255, 255, 255);
+  }
+  
+  .subnav:hover .subnav-content {
+	display: block;
+  }
+ 
+  .bgimage
+{
+	height: 100%;
+	width: 100%;
+  
+    background-repeat: no-repeat;
+	background-size: 500px, 250px, 250px, cover;
+  background-position-x: center, 10cm, 33.7cm;
+  background-position-y: center;
+position: absolute;
+right: 0px;
+ 
+}
+
+.txtstyle
+  {
+  position: absolute;
+ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-size: 64px;
+  color: burlywood;
+  }
+
+  .Logout
+  {
+  float: right;
+  margin: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  }
+
+  .Logout:hover
+  {
+    color: #fbff00;
+    cursor: pointer;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 11px;
+    background: rgb(221, 151, 133);
+    color: white;
+    font-size: 15px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+
+  }
+  
+  form.example button:hover {
+    background: #8a4c2f;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .footer {
+ 
+    width: 100%;
+    padding: 5px;
+    background-color:  #8a4c2fbe;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+ }
+
+
+
+  
+  
