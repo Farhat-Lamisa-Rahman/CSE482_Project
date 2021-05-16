@@ -13,7 +13,7 @@ $Email=$_POST['email'];
       
       if($Email==$row["Email"] && $Password==$row["Password"])
       {
-        header("Location: index.php"); 
+        header("Location: orderedinfo.php"); 
       }
       else echo "<br>"." Try again !!!  " ;
     }

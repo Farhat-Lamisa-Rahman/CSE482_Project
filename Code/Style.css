@@ -32,6 +32,18 @@ html
     background-color:#551f06 ;
 }
 
+.payment_logo
+{
+  height: 10%;
+  width: 10%;
+}
+
+.payment_logo img
+{
+  height: 100%;
+  width: 100%;
+}
+
  
 
    .pubg
@@ -131,13 +143,13 @@ html
 {
 	height: 100%;
 	width: 100%;
-  
-    background-repeat: no-repeat;
-	background-size: 500px, 250px, 250px, cover;
+    
+  background-repeat: no-repeat;
+  background-size: 500px, 250px, 250px, cover;
   background-position-x: center, 10cm, 33.7cm;
   background-position-y: center;
-position: absolute;
-right: 0px;
+  position: absolute;
+  right: 0px;
  
 }
 
