@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 16, 2021 at 09:13 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.0
+-- Generation Time: May 17, 2021 at 12:11 PM
+-- Server version: 10.4.18-MariaDB
+-- PHP Version: 8.0.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -86,33 +86,16 @@ CREATE TABLE `orderinfo` (
 --
 
 INSERT INTO `orderinfo` (`Email`, `Name`, `Code`, `Quantity`, `Price`) VALUES
-('', 'Luxury Ultra thin Wrist Watch', '3', 'wristWear0', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', '3', 'wristWear0', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '4', '300.00'),
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', 'FinePix Pro2 3D Camera', '3DcAM01', '3', '1500.00'),
 ('', '', '', '', ''),
 ('', '', '', '', ''),
 ('', '', '', '', ''),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
 ('', '', '', '', ''),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '2', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
-('', 'Luxury Ultra thin Wrist Watch', 'wristWear03', '3', '300.00'),
+('', '', '', '', ''),
+('', '', '', '', ''),
 ('', 'Steam 5$', '123456jhg', '3', '777.00'),
-('', 'steam 100.jpg', '121aw12', '1', '5.00');
+('', 'steam 100.jpg', '121aw12', '1', '5.00'),
+('', '', '', '', ''),
+('', '', '', '', '');
 
 -- --------------------------------------------------------
 
@@ -133,12 +116,10 @@ CREATE TABLE `tblproduct` (
 --
 
 INSERT INTO `tblproduct` (`id`, `name`, `code`, `image`, `price`) VALUES
-(1, 'FinePix Pro2 3D Camera', '3DcAM01', 'product-images/camera.jpg', 1500.00),
-(2, 'EXP Portable Hard Drive', 'USB02', 'product-images/external-hard-drive.jpg', 800.00),
-(3, 'Luxury Ultra thin Wrist Watch', 'wristWear03', 'product-images/watch.jpg', 300.00),
-(4, 'XP 1155 Intel Core Laptop', 'LPN45', 'product-images/laptop.jpg', 800.00),
-(5, 'Steam 5$', '123456jhg', 'product-images/cyberpunk.jpg', 777.00),
-(6, 'steam 100.jpg', '121aw12', 'product-images/steam 100.jpg', 5.00);
+(1, 'PUBG', 'pubgggpubg', 'product-images/pubg.jpg', 10.00),
+(2, 'STEAM $20', '987rty5tyu76', 'product-images/steam 5.jpg', 19.00),
+(5, 'CyberPunk', '123456jhg', 'product-images/cyberpunk.jpg', 77.00),
+(6, 'steam 100.jpg', '121aw12', 'product-images/steam 100.jpg', 95.00);
 
 --
 -- Indexes for dumped tables
