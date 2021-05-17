@@ -45,7 +45,7 @@ switch($_GET["action"]) {
 ?>
 <HTML>
 <HEAD>
-<TITLE>Simple PHP Shopping Cart</TITLE>
+<TITLE>BD GiftCards</TITLE>
 <link href="st.css" type="text/css" rel="stylesheet" />
 </HEAD>
 <div class="navbar">
