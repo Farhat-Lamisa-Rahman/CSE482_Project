@@ -7,7 +7,7 @@ $Name=$item["name"];
 $Code=$item["code"];
 $Quantity=$item["quantity"];
 $Price=$item["price"];
-$query="INSERT INTO orderinfo(`Name`, `Code`, `Quantity`, `Price`)
+$query="INSERT INTO orderinfo2(`Name`, `Code`, `Quantity`, `Price`)
 VALUES('{$Name}','{$Code}','{$Quantity}','{$Price}');";
 $performQuery=mysqli_query($connection, $query);
 if(!$performQuery)

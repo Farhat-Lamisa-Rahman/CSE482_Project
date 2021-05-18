@@ -53,6 +53,7 @@
         if(y.length<7 || y.length>20)
             {
                 alert("Password must be minimum 7 character and maximum 20 characters");
+                return false;
             }
         }
 
