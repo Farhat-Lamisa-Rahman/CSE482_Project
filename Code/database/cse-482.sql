@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 17, 2021 at 12:11 PM
+-- Generation Time: May 17, 2021 at 05:38 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -74,7 +74,7 @@ INSERT INTO `customerdetails` (`First Name`, `Last Name`, `Password`, `Email`) V
 --
 
 CREATE TABLE `orderinfo` (
-  `Email` varchar(50) NOT NULL,
+  `Email` varchar(50) DEFAULT NULL,
   `Name` varchar(100) NOT NULL,
   `Code` varchar(22) NOT NULL,
   `Quantity` varchar(10) NOT NULL,
@@ -86,16 +86,33 @@ CREATE TABLE `orderinfo` (
 --
 
 INSERT INTO `orderinfo` (`Email`, `Name`, `Code`, `Quantity`, `Price`) VALUES
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', '', '', '', ''),
-('', 'Steam 5$', '123456jhg', '3', '777.00'),
-('', 'steam 100.jpg', '121aw12', '1', '5.00'),
-('', '', '', '', ''),
-('', '', '', '', '');
+(NULL, 'CyberPunk', '123456jhg', '1', '77.00'),
+(NULL, 'PUBG', 'pubgggpubg', '6', '10.00'),
+(NULL, 'STEAM $20', '987rty5tyu76', '2', '19.00'),
+(NULL, 'steam 100.jpg', '121aw12', '5', '95.00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `orderinfo2`
+--
+
+CREATE TABLE `orderinfo2` (
+  `Email` varchar(50) DEFAULT NULL,
+  `Name` varchar(100) NOT NULL,
+  `Code` varchar(22) NOT NULL,
+  `Quantity` varchar(10) NOT NULL,
+  `Price` varchar(10000) NOT NULL,
+  `orderNo` int(22) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `orderinfo2`
+--
+
+INSERT INTO `orderinfo2` (`Email`, `Name`, `Code`, `Quantity`, `Price`, `orderNo`) VALUES
+(NULL, 'steam 100.jpg', '121aw12', '1', '95.00', 1),
+(NULL, 'STEAM $20', '987rty5tyu76', '1', '19.00', 2);
 
 -- --------------------------------------------------------
 
@@ -139,6 +156,18 @@ ALTER TABLE `customerdetails`
   ADD PRIMARY KEY (`Email`);
 
 --
+-- Indexes for table `orderinfo`
+--
+ALTER TABLE `orderinfo`
+  ADD PRIMARY KEY (`Name`);
+
+--
+-- Indexes for table `orderinfo2`
+--
+ALTER TABLE `orderinfo2`
+  ADD PRIMARY KEY (`orderNo`);
+
+--
 -- Indexes for table `tblproduct`
 --
 ALTER TABLE `tblproduct`
@@ -148,6 +177,12 @@ ALTER TABLE `tblproduct`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `orderinfo2`
+--
+ALTER TABLE `orderinfo2`
+  MODIFY `orderNo` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tblproduct`

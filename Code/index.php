@@ -143,7 +143,7 @@ if(isset($_SESSION["cart_item"])){
 <td align="right" colspan="2"><strong><?php echo "$ ".number_format($total_price, 2); ?></strong></td>
 <td></td>
 <a id="btnEmpty" href="orderedinfo.php">Confrm</a>
-<a id="btnEmpty" href="PaymentMethod.php">Proceed To Payment</a>
+<a id="btnEmpty" href="PaymentMethod.php">Proceed to Pay</a>
 </tr>
 
 </tbody>

@@ -13,7 +13,10 @@ $performQuery=mysqli_query($connection, $query);
 if(!$performQuery)
 echo 'Query unsuccessful';
 else
-echo 'Query successful';
+{
+    echo 'Query successful';
+    header("Location: index.php"); 
+}
 $insertedId=mysqli_insert_id($connection);
 }
 ?>
