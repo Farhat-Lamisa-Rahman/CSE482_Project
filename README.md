@@ -16,7 +16,7 @@
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1731068042</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:lamisa.farhat@northsouth.edu">rownak.pip@northsouth.edu</a></p>
 <p align="center"><strong><u>Member 3</u></strong><u>:</u></p>
-<p align="center"><strong>Name</strong><strong>:</strong> Md. Rownak Islam Dip</p>
+<p align="center"><strong>Name</strong><strong>:</strong> Nishat Tabassum</p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1731448642</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:lamisa.farhat@northsouth.edu">nishat.tabassum173@northsouth.edu</a></p>
 
